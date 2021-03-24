@@ -11,7 +11,7 @@ public class DateFormatting
 	{
 		String[] dates = new String[10];    // for storing 10 date values.
 		String[] monthNames = { "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"};
-		int[] daysInMonth = {32, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+		int[] daysInMonth = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 		char separator='/';
 		int day   =0;
 		int month =0;
